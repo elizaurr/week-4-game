@@ -11,7 +11,7 @@ var losses = 0;
 var currentStreak = 0;
 var longestStreak = 0;
 
-$('.numberdisplay').html(number);
+$(".numberdisplay").html(number);
 
 $(".redcrystal").click(function() {
   update(red);
