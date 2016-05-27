@@ -1,0 +1,41 @@
+body { 
+  background: url('http://1.bp.blogspot.com/-84pAfYl1OLs/Tw1bsIpLHdI/AAAAAAAAARc/mCbjcIOdVgA/s1600/crystal_cave_bkg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  
+  font-family: 'Cherry Swash', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+
+h3 {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 36px;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Roboto', cursive;
+  color: white;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Roboto', cursive;
+  color: white;
+}
+
+
+h1, h2 {
+
+  text-shadow: 2px 2px lightblue;
+}
+
+
