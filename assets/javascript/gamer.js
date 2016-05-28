@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+    console.log( "ready!" );
 var number = Math.floor((Math.random() * 102) + 19);
 
 var red = Math.floor((Math.random() * 12) + 1);
@@ -11,7 +13,7 @@ var losses = 0;
 var currentStreak = 0;
 var longestStreak = 0;
 
-$(".numberdisplay").html(number);
+$('.numberdisplay').html(number);
 
 $(".redcrystal").click(function() {
   update(red);
@@ -58,6 +60,7 @@ function reset() {
 
 
 function update(color) {
+  console.log("in update function",color);
   guessTotal += color;
 
   $(".guessdisplay").empty();
@@ -97,3 +100,4 @@ function update(color) {
     $("#longeststreakdisplay").html(longestStreak);
   };
 };
+});
